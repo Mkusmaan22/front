@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Allow all bots to access the entire site
+# Block access to admin areas
+Disallow: /admin/
+Disallow: /wp-admin/
+
+# Block specific files
+Disallow: /*.json$
+Disallow: /*.js$
+Disallow: /*.css$
+
+# Sitemap location
+Sitemap: https://crossstitchpatternmaker.com/sitemap.xml
